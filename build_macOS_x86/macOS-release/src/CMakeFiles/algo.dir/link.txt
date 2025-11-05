@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libalgo.a CMakeFiles/algo.dir/reverse_words.cpp.o CMakeFiles/algo.dir/linked_list.cpp.o CMakeFiles/algo.dir/queue_with_two_stacks.cpp.o CMakeFiles/algo.dir/string_replacer.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libalgo.a

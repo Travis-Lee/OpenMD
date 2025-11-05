@@ -1,5 +1,6 @@
 set(SRC reverse_words.cpp
         linked_list.cpp
+        queue_with_two_stacks.cpp
         string_replacer.cpp)   # ✅ 删除 mat.cpp
 
 add_library(algo STATIC ${SRC})

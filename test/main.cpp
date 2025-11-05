@@ -8,6 +8,8 @@
 #include <iostream>
 #include <vector>
 #include "string_replacer.h"
+#include "uniTest.h"
+
 
 void test_replace_space(){
     const int MAX_SIZE = 100;
@@ -191,6 +193,9 @@ int main(int argc, char* argv[])
  
     test_replace_space();
 
+    test_queue_with_two_stacks();
+    test_queue_with_two_stacks_2();
+    
     return 0;
 
 }

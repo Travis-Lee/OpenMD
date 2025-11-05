@@ -24,6 +24,12 @@ public:
     // 队列大小
     size_t size() const;
 
+    void push(T node);
+    
+    void copy(std::stack<T> &a,std::stack<T> &b);
+
+    T pop();
+
 private:
     std::stack<T> inStack;   // 入栈
     std::stack<T> outStack;  // 出栈

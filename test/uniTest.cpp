@@ -23,3 +23,28 @@ int test_queue_with_two_stacks() {
 }
 
 
+int test_queue_with_two_stacks_2() {
+
+    QueueWithTwoStacks<int> q;
+
+    // 入队
+    q.push(1);
+    q.push(2);
+    q.push(3);
+
+    std::cout << "=======>Pop: " << q.pop() << std::endl; // 1
+    std::cout << "========>Pop: " << q.pop() << std::endl; // 2
+
+    // 再入队
+    q.push(4);
+    std::cout<<"111111"<<std::endl;
+    std::cout << "Pop: " << q.pop() << std::endl; // 3
+    std::cout<<"22222"<<std::endl;
+    std::cout << "Pop: " << q.pop() << std::endl; // 4
+
+    // 队列是否为空
+    if (q.empty()) std::cout << "Queue is empty" << std::endl;
+
+
+    return 0;
+}
