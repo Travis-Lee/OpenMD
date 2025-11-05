@@ -1,9 +1,0 @@
-/Users/lixintao/Work/asr/OpenMD/build_macOS_x86/macOS-release/CMakeFiles/edit_cache.dir
-/Users/lixintao/Work/asr/OpenMD/build_macOS_x86/macOS-release/CMakeFiles/rebuild_cache.dir
-/Users/lixintao/Work/asr/OpenMD/build_macOS_x86/macOS-release/src/CMakeFiles/algo.dir
-/Users/lixintao/Work/asr/OpenMD/build_macOS_x86/macOS-release/src/CMakeFiles/edit_cache.dir
-/Users/lixintao/Work/asr/OpenMD/build_macOS_x86/macOS-release/src/CMakeFiles/rebuild_cache.dir
-/Users/lixintao/Work/asr/OpenMD/build_macOS_x86/macOS-release/test/CMakeFiles/reverse_w.dir
-/Users/lixintao/Work/asr/OpenMD/build_macOS_x86/macOS-release/test/CMakeFiles/conv.dir
-/Users/lixintao/Work/asr/OpenMD/build_macOS_x86/macOS-release/test/CMakeFiles/edit_cache.dir
-/Users/lixintao/Work/asr/OpenMD/build_macOS_x86/macOS-release/test/CMakeFiles/rebuild_cache.dir
