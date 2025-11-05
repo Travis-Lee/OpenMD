@@ -84,7 +84,9 @@ void QueueWithTwoStacks<T>::copy(std::stack<T> &a, std::stack<T> &b) {
 
 template<typename T>
 T QueueWithTwoStacks<T>::pop(){
-
+    if (inStack.empty()) {
+        throw std::out_of_range("Queue is empty");
+    }
     copy(inStack,outStack);
     int res=outStack.top();
     outStack.pop();
