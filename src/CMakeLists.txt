@@ -1,6 +1,7 @@
 set(SRC reverse_words.cpp
         linked_list.cpp
         power.cpp
+        max_subarray.cpp
         interval_inserter.cpp
         queue_with_two_stacks.cpp
         ransom_note.cpp

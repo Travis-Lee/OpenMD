@@ -127,4 +127,17 @@ int test_interval_inserter(){
 
 }
 
+int test_max_subarray(){
+
+    MaxSubarray<int> solver;
+
+    std::vector<int> nums = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
+
+    int result = solver.findMaxSum(nums);
+
+    std::cout << "Maximum Subarray Sum = " << result << std::endl;
+
+    return 0;
+}
+
 

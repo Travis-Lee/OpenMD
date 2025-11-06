@@ -201,6 +201,8 @@ int main(int argc, char* argv[])
     test_ransom_note();
 
     test_interval_inserter();
+
+    test_max_subarray();
     
     return 0;
 
