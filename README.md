@@ -1,7 +1,3 @@
-Got it ✅ — here’s the English version of the README draft I gave you earlier:
-
----
-
 # OpenMD
 
 **OpenMD** is an open-source project written in C++ that focuses on implementing basic mathematical algorithms and applications.  
