@@ -196,6 +196,12 @@ int main(int argc, char* argv[])
     test_queue_with_two_stacks();
     test_queue_with_two_stacks_2();
     
+    test_power();
+    
+    test_ransom_note();
+
+    test_interval_inserter();
+    
     return 0;
 
 }
