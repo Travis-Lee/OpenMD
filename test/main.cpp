@@ -204,6 +204,8 @@ int main(int argc, char* argv[])
 
     test_max_subarray();
     
+    test_two_sum();
+    
     return 0;
 
 }

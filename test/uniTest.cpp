@@ -1,5 +1,6 @@
 #include "uniTest.h"
 #include <iostream>
+#include <vector>
 
 int test_queue_with_two_stacks() {
     QueueWithTwoStacks<int> q;
@@ -139,5 +140,17 @@ int test_max_subarray(){
 
     return 0;
 }
+
+int test_two_sum(){
+    std::vector<int> nums = {2, 7, 11, 15};
+    int target = 9;
+
+    std::vector<int> result = TwoSum::findIndices(nums, target);
+
+    std::cout << "Result: [" << result[0] << ", " << result[1] << "]" << std::endl;
+
+    return 0;
+}
+
 
 
