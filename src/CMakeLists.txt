@@ -3,6 +3,7 @@ set(SRC reverse_words.cpp
         power.cpp
         max_subarray.cpp
         two_sum.cpp
+        matrix01.cpp
         interval_inserter.cpp
         queue_with_two_stacks.cpp
         ransom_note.cpp

@@ -152,5 +152,28 @@ int test_two_sum(){
     return 0;
 }
 
+int test_matrix01(){
+    std::vector<std::vector<int>> mat = {
+        {0, 0, 0},
+        {0, 1, 0},
+        {1, 1, 1}  //{0, 0, 0}
+    };
+
+    Matrix01<int> solver;
+    
+    std::vector<std::vector<int>> result = solver.updateMatrix(mat);
+
+    std::cout<<"Res distance matrix:\n";
+
+    for (const auto& row : result) {
+        for (int val : row) {
+            std::cout << val << " ";
+        }
+        std::cout << "\n";
+    }
+
+    return 0;
+}
+
 
 

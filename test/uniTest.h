@@ -4,6 +4,7 @@
 #include "interval_inserter.h"
 #include "max_subarray.h"
 #include "two_sum.h"
+#include "matrix01.h"
 
 
 int test_queue_with_two_stacks();
@@ -20,3 +21,4 @@ int test_max_subarray();
 
 int test_two_sum();
 
+int test_matrix01();
