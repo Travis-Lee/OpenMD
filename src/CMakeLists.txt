@@ -1,6 +1,7 @@
 set(SRC reverse_words.cpp
         linked_list.cpp
         power.cpp
+        points_k_closest.cpp
         max_subarray.cpp
         two_sum.cpp
         matrix01.cpp

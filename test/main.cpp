@@ -207,6 +207,9 @@ int main(int argc, char* argv[])
     test_two_sum();
 
     test_matrix01();    
+
+    test_points_k_closest();
+    
     return 0;
 
 }

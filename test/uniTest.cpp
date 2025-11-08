@@ -176,4 +176,20 @@ int test_matrix01(){
 }
 
 
+int test_points_k_closest(){
+    KClosestPoints<int> solver;
 
+    std::vector<std::vector<int>> points = {{1,3},{-2,2},{3,3}};
+    int k = 2;
+
+    std::vector<std::vector<int>> result = solver.findClosest(points, k);
+
+    std::cout << "k=" << k << " closest points to origin:\n";
+    for(const auto& p : result){
+        std::cout << "[" << p[0] << "," << p[1] << "]\n";
+    }
+
+    return 0;
+
+
+}
