@@ -1,3 +1,4 @@
+#include "longest_substring.h"
 #include "queue_with_two_stacks.h"
 #include "power.h"
 #include "ransom_note.h"
@@ -24,3 +25,5 @@ int test_two_sum();
 int test_matrix01();
 
 int test_points_k_closest();
+
+int test_longest_substring();

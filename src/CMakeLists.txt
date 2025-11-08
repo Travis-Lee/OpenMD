@@ -5,6 +5,7 @@ set(SRC reverse_words.cpp
         max_subarray.cpp
         two_sum.cpp
         matrix01.cpp
+        longest_substring.cpp
         interval_inserter.cpp
         queue_with_two_stacks.cpp
         ransom_note.cpp

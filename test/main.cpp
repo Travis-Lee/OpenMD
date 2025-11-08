@@ -209,9 +209,10 @@ int main(int argc, char* argv[])
     test_matrix01();    
 
     test_points_k_closest();
+
+    test_longest_substring();
     
     return 0;
-
 }
 
 

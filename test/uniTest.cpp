@@ -190,6 +190,22 @@ int test_points_k_closest(){
     }
 
     return 0;
-
-
 }
+
+int test_longest_substring(){
+
+    LongestSubstring solver; // 创建对象
+
+    std::string s = "abcabcbb";
+
+    // 调用返回长度的函数
+    int len = solver.lengthOfLongestSubstring(s);
+    std::cout << "Length of longest substring: " << len << std::endl;
+
+    // 调用返回最长子串的函数
+    std::string longest = solver.getLongestSubstring(s);
+    std::cout << "Longest substring: " << longest << std::endl;
+    
+    return 0;
+}
+
