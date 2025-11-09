@@ -38,7 +38,7 @@ std::vector<std::vector<T>> BinaryTreeLevelOrder<T>::levelOrder(TreeNode<T>* roo
             if (node->right) q.push(node->right);
         }
 
-        //如果有右孩子，放进队列;每次循环一层就完成一次添加
+        //把当前层的节点数组加到 result 里,也就是把这一层的数据“存档”到最终输出数组
         result.push_back(level);
         temp++;
         std::cout<<"temp:=======>"<<temp<<std::endl;
