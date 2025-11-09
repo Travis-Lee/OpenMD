@@ -40,10 +40,10 @@ std::vector<std::vector<T>> BinaryTreeLevelOrder<T>::levelOrder(TreeNode<T>* roo
 
         //如果有右孩子，放进队列;每次循环一层就完成一次添加
         result.push_back(level);
+        temp++;
+        std::cout<<"temp:=======>"<<temp<<std::endl;
     }
 
-    temp++;
-    std::cout<<"temp:=======>"<<temp<<std::endl;
     //返回最终的二维数组
     return result;
 }
