@@ -211,6 +211,8 @@ int main(int argc, char* argv[])
     test_points_k_closest();
 
     test_longest_substring();
+
+    test_three_sum();
     
     return 0;
 }

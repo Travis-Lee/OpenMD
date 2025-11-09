@@ -209,3 +209,25 @@ int test_longest_substring(){
     return 0;
 }
 
+int test_three_sum(){
+
+    ThreeSum solver;
+    
+    std::vector<int> nums={-1,0,1,2,-1,-4};
+
+    std::vector<std::vector<int>> triplets = solver.findTriplets(nums);
+
+    std::cout<<"Triplets that sum to 0:"<<std::endl;
+
+    for(const auto& t: triplets){
+        std::cout<<"[";
+        for(size_t i=0; i<t.size();i++){
+            std::cout<<t[i];
+            if(i<t.size()-1) std::cout<<",";
+        }
+        std::cout<<"]"<<std::endl;
+    }
+
+    return 0;
+}
+

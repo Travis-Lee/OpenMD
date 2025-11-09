@@ -5,6 +5,7 @@
 #include "interval_inserter.h"
 #include "max_subarray.h"
 #include "two_sum.h"
+#include "three_sum.h"
 #include "matrix01.h"
 #include "points_k_closest.h"
 
@@ -27,3 +28,5 @@ int test_matrix01();
 int test_points_k_closest();
 
 int test_longest_substring();
+
+int test_three_sum();
