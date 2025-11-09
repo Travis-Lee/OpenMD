@@ -231,3 +231,39 @@ int test_three_sum(){
     return 0;
 }
 
+int test_binary_tree_level_ordre(){
+    // 创建树节点（你的例子 [3,9,20,null,null,15,7]）
+    TreeNode<int>* root = new TreeNode<int>(3);
+    root->left = new TreeNode<int>(9);
+    root->right = new TreeNode<int>(20);
+    root->right->left = new TreeNode<int>(15);
+    root->right->right = new TreeNode<int>(7);
+
+    // 创建层序遍历对象
+    BinaryTreeLevelOrder<int> btree;
+
+    // 调用层序遍历方法
+    std::vector<std::vector<int>> result = btree.levelOrder(root);
+
+    // 输出结果
+    std::cout << "[";
+    for (size_t i = 0; i < result.size(); ++i) {
+        std::cout << "[";
+        for (size_t j = 0; j < result[i].size(); ++j) {
+            std::cout << result[i][j];
+            if (j < result[i].size() - 1) std::cout << ",";
+        }
+        std::cout << "]";
+        if (i < result.size() - 1) std::cout << ",";
+    }
+    std::cout << "]" << std::endl;
+
+    // 释放内存
+    delete root->left;
+    delete root->right->left;
+    delete root->right->right;
+    delete root->right;
+    delete root;
+
+    return 0;
+}

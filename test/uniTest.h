@@ -8,6 +8,8 @@
 #include "three_sum.h"
 #include "matrix01.h"
 #include "points_k_closest.h"
+#include "binary_tree_level_order.h"
+
 
 int test_queue_with_two_stacks();
 
@@ -30,3 +32,5 @@ int test_points_k_closest();
 int test_longest_substring();
 
 int test_three_sum();
+
+int test_binary_tree_level_ordre();

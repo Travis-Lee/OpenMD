@@ -213,7 +213,9 @@ int main(int argc, char* argv[])
     test_longest_substring();
 
     test_three_sum();
-    
+
+    test_binary_tree_level_ordre();
+        
     return 0;
 }
 
