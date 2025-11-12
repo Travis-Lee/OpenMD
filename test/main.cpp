@@ -215,7 +215,8 @@ int main(int argc, char* argv[])
     test_three_sum();
 
     test_binary_tree_level_ordre();
-        
+
+    test_lru_cache();        
     return 0;
 }
 

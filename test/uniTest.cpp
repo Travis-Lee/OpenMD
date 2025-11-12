@@ -267,3 +267,20 @@ int test_binary_tree_level_ordre(){
 
     return 0;
 }
+
+int test_lru_cache(){
+    LRUCache cache(2); // 容量 2
+
+    cache.put(1, 1);
+    cache.put(2, 2);
+    std::cout << cache.get(1) << std::endl; // 输出 1
+    cache.put(3, 3); // 淘汰 key=2
+    std::cout << cache.get(2) << std::endl; // 输出 -1
+    cache.put(4, 4); // 淘汰 key=1
+    std::cout << cache.get(1) << std::endl; // 输出 -1
+    std::cout << cache.get(3) << std::endl; // 输出 3
+    std::cout << cache.get(4) << std::endl; // 输出 4
+
+    return 0;
+}
+
