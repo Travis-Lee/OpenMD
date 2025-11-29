@@ -14,7 +14,7 @@ struct Node {
 class LRUCache {
 public:
     LRUCache(int capacity);
-    ～ LRUCache() = default;
+    ~LRUCache() = default;
     int get(int key);
     void put(int key, int value);
 

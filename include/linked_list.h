@@ -3,13 +3,16 @@
 
 #include <iostream>
 #include <cassert>
+#include "../common/list_node.h"
 
+/*
 template<typename T>
 struct ListNode {
     T val;
     ListNode* next;
     ListNode(T v) : val(v), next(nullptr) {}
 };
+*/
 
 template<typename T>
 class LinkedList {

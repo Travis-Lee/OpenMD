@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+rm -rf build_macOS_x86
+
 echo "start complie project"
 
 ./bash/build_macOS_x86.sh*

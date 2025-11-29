@@ -217,6 +217,11 @@ int main(int argc, char* argv[])
     test_binary_tree_level_ordre();
 
     test_lru_cache();        
+
+
+    printf("get two numbers:\n");
+    test_add_two_numbers();
+
     return 0;
 }
 

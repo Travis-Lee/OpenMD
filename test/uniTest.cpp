@@ -284,3 +284,15 @@ int test_lru_cache(){
     return 0;
 }
 
+int test_add_two_numbers(){
+    AddTwoNumbers<int> solver;
+
+    auto l1 = solver.buildList({2,4,3});
+    auto l2 = solver.buildList({5,6,4});
+
+    auto sum = solver.addTwoNumbers(l1, l2);
+
+    solver.printList(sum);
+
+    return 0;
+}

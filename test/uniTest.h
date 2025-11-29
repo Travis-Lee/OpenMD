@@ -10,6 +10,7 @@
 #include "points_k_closest.h"
 #include "binary_tree_level_order.h"
 #include "lru_cache.h"
+#include "add_two_numbers.h"
 
 int test_queue_with_two_stacks();
 
@@ -36,3 +37,5 @@ int test_three_sum();
 int test_binary_tree_level_ordre();
 
 int test_lru_cache();
+
+int test_add_two_numbers();
