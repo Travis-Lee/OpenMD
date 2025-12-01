@@ -296,3 +296,20 @@ int test_add_two_numbers(){
 
     return 0;
 }
+
+int test_kth_smallest_elements(){
+    BSTKth<int> solver;
+
+    std::vector<int> data = {5,3,6,2,4,1};
+    TreeNode<int>* root = solver.buildBTS(data);
+
+    int k = 3;
+    int kth_smallest = solver.kthSmallest(root, k);
+
+    std::cout << k << "th smallest element in BST: " << kth_smallest << std::endl;
+
+    // 释放内存
+    solver.deleteTree(root);
+
+    return 0;
+}

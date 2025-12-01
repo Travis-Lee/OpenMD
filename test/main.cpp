@@ -222,6 +222,9 @@ int main(int argc, char* argv[])
     printf("get two numbers:\n");
     test_add_two_numbers();
 
+    printf("get kth smallest elements in BST:\n");
+    test_kth_smallest_elements();
+
     return 0;
 }
 

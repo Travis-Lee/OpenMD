@@ -3,16 +3,8 @@
 
 #include <vector>
 #include <queue>
+#include "../common/tree_node.h"
 
-// 模板二叉树节点结构
-template<typename T>
-struct TreeNode {
-    T val;
-    TreeNode* left;
-    TreeNode* right;
-    //这是 构造节点。意思：当我创建一个节点时，比如：TreeNode<int>* node = new TreeNode<int>(3)，他会自动变成val=？，left=null，right=null
-    TreeNode(T x) : val(x), left(nullptr), right(nullptr) {}
-};
 
 // 模板层序遍历类
 template<typename T>

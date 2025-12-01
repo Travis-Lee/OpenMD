@@ -10,6 +10,7 @@ set(SRC reverse_words.cpp
         three_sum.cpp
         matrix01.cpp
         longest_substring.cpp
+        kth_smallest_elements.cpp
         interval_inserter.cpp
         queue_with_two_stacks.cpp
         ransom_note.cpp

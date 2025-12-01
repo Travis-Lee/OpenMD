@@ -11,6 +11,7 @@
 #include "binary_tree_level_order.h"
 #include "lru_cache.h"
 #include "add_two_numbers.h"
+#include "kth_smallest_elements.h"
 
 int test_queue_with_two_stacks();
 
@@ -39,3 +40,5 @@ int test_binary_tree_level_ordre();
 int test_lru_cache();
 
 int test_add_two_numbers();
+
+int test_kth_smallest_elements();
