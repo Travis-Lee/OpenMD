@@ -12,6 +12,7 @@
 #include "lru_cache.h"
 #include "add_two_numbers.h"
 #include "kth_smallest_elements.h"
+#include "valid_parentheses.h"
 
 int test_queue_with_two_stacks();
 
@@ -42,3 +43,5 @@ int test_lru_cache();
 int test_add_two_numbers();
 
 int test_kth_smallest_elements();
+
+bool test_valid_parentheses();

@@ -225,6 +225,9 @@ int main(int argc, char* argv[])
     printf("get kth smallest elements in BST:\n");
     test_kth_smallest_elements();
 
+    printf("test valid parentheses passed!\n");
+    test_valid_parentheses();
+
     return 0;
 }
 

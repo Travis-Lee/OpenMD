@@ -11,6 +11,7 @@ set(SRC reverse_words.cpp
         matrix01.cpp
         longest_substring.cpp
         kth_smallest_elements.cpp
+        valid_parentheses.cpp
         interval_inserter.cpp
         queue_with_two_stacks.cpp
         ransom_note.cpp

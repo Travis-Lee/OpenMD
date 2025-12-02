@@ -313,3 +313,24 @@ int test_kth_smallest_elements(){
 
     return 0;
 }
+
+bool test_valid_parentheses(){
+    ValidParentheses<char> solver;
+
+    std::string s1 = "()";
+    std::cout << s1 << " is valid: " << std::boolalpha << solver.isValid(s1) << std::endl;
+
+    std::string s2 = "()[]{}";
+    std::cout << s2 << " is valid: " << std::boolalpha << solver.isValid(s2) << std::endl;
+
+    std::string s3 = "(]";
+    std::cout << s3 << " is valid: " << std::boolalpha << solver.isValid(s3) << std::endl;
+
+    std::string s4 = "([])";
+    std::cout << s4 << " is valid: " << std::boolalpha << solver.isValid(s4) << std::endl;
+
+    std::string s5 = "([)]";
+    std::cout << s5 << " is valid: " << std::boolalpha << solver.isValid(s5) << std::endl;
+
+    return true;
+}
