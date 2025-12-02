@@ -231,6 +231,9 @@ int main(int argc, char* argv[])
     printf("test merge two sorted lists passed!\n");
     test_merge_two_sorted_lists();
 
+    printf("test best time to buy and sell stock passed!\n");
+    test_best_time_to_buy_and_sell_stock();
+
     return 0;
 }
 

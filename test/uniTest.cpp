@@ -349,6 +349,9 @@ int test_merge_two_sorted_lists(){
 
     ListNode<int>* mergedList = solver.mergeTwoLists(list1, list2);
 
+    // Save the head pointer before traversal
+    ListNode<int>* head = mergedList;
+
     std::cout << "Merged Sorted List: ";
     while (mergedList != nullptr) {
         std::cout << mergedList->val << " ";
@@ -357,12 +360,26 @@ int test_merge_two_sorted_lists(){
     std::cout << std::endl;
 
     // release memory
-    ListNode<int>* current = mergedList;
+    ListNode<int>* current = head;
     while (current != nullptr) {
         ListNode<int>* nextNode = current->next;
         delete current;
         current = nextNode;
     }
+
+    return 0;
+}
+
+int test_best_time_to_buy_and_sell_stock(){
+    StockProfit<int> solver;
+
+    std::vector<int> prices1 = {7,1,5,3,6,4};
+    int maxProfit1 = solver.maxProfit(prices1);
+    std::cout << "Max Profit for prices1: " << maxProfit1 << std::endl; // Expected: 5
+
+    std::vector<int> prices2 = {7,6,4,3,1};
+    int maxProfit2 = solver.maxProfit(prices2);
+    std::cout << "Max Profit for prices2: " << maxProfit2 << std::endl; // Expected: 0
 
     return 0;
 }

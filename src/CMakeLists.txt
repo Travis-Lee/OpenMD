@@ -15,6 +15,7 @@ set(SRC reverse_words.cpp
         interval_inserter.cpp
         queue_with_two_stacks.cpp
         merge_two_sorted_lists.cpp
+        best_time_to_buy_and_sell_stock.cpp
         ransom_note.cpp
         string_replacer.cpp)   # ✅ 删除 mat.cpp
 

@@ -14,6 +14,7 @@
 #include "kth_smallest_elements.h"
 #include "valid_parentheses.h"
 #include "merge_two_sorted_lists.h"
+#include "best_time_to_buy_and_sell_stock.h"
 
 int test_queue_with_two_stacks();
 
@@ -48,3 +49,5 @@ int test_kth_smallest_elements();
 bool test_valid_parentheses();
 
 int test_merge_two_sorted_lists();
+
+int test_best_time_to_buy_and_sell_stock();
