@@ -356,5 +356,13 @@ int test_merge_two_sorted_lists(){
     }
     std::cout << std::endl;
 
+    // release memory
+    ListNode<int>* current = mergedList;
+    while (current != nullptr) {
+        ListNode<int>* nextNode = current->next;
+        delete current;
+        current = nextNode;
+    }
+
     return 0;
 }
