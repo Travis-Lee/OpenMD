@@ -194,6 +194,7 @@ int main(int argc, char* argv[])
     test_replace_space();
 
     test_queue_with_two_stacks();
+    
     test_queue_with_two_stacks_2();
     
     test_power();
@@ -227,6 +228,9 @@ int main(int argc, char* argv[])
 
     printf("test valid parentheses passed!\n");
     test_valid_parentheses();
+
+    printf("test merge two sorted lists passed!\n");
+    test_merge_two_sorted_lists();
 
     return 0;
 }

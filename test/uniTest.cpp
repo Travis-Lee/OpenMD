@@ -334,3 +334,27 @@ bool test_valid_parentheses(){
 
     return true;
 }
+
+
+int test_merge_two_sorted_lists(){
+    MergeTwoSortedLists<int> solver;
+
+    ListNode<int>* list1 = new ListNode<int>(1);
+    list1->next = new ListNode<int>(2);
+    list1->next->next = new ListNode<int>(4);
+
+    ListNode<int>* list2 = new ListNode<int>(1);
+    list2->next = new ListNode<int>(3);
+    list2->next->next = new ListNode<int>(4);
+
+    ListNode<int>* mergedList = solver.mergeTwoLists(list1, list2);
+
+    std::cout << "Merged Sorted List: ";
+    while (mergedList != nullptr) {
+        std::cout << mergedList->val << " ";
+        mergedList = mergedList->next;
+    }
+    std::cout << std::endl;
+
+    return 0;
+}

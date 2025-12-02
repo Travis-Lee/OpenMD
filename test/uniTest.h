@@ -13,6 +13,7 @@
 #include "add_two_numbers.h"
 #include "kth_smallest_elements.h"
 #include "valid_parentheses.h"
+#include "merge_two_sorted_lists.h"
 
 int test_queue_with_two_stacks();
 
@@ -45,3 +46,5 @@ int test_add_two_numbers();
 int test_kth_smallest_elements();
 
 bool test_valid_parentheses();
+
+int test_merge_two_sorted_lists();
