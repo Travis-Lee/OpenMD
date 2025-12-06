@@ -383,3 +383,14 @@ int test_best_time_to_buy_and_sell_stock(){
 
     return 0;
 }
+
+
+bool test_valid_palindrome(){
+    ValidPalindrome<std::string> solver("A man, a plan, a canal: Panama");
+    std::cout << "Is palindrome: " << std::boolalpha << solver.isPalindrome() << std::endl;
+ 
+    ValidPalindrome<std::string> solver2("race a car");
+    std::cout << "Is palindrome: " << std::boolalpha << solver2.isPalindrome() << std::endl;
+    
+    return true;
+}

@@ -234,6 +234,9 @@ int main(int argc, char* argv[])
     printf("test best time to buy and sell stock passed!\n");
     test_best_time_to_buy_and_sell_stock();
 
+    printf("test valid palindrome passed!\n");
+    test_valid_palindrome();
+
     return 0;
 }
 

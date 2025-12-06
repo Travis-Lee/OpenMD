@@ -17,6 +17,7 @@ set(SRC reverse_words.cpp
         merge_two_sorted_lists.cpp
         best_time_to_buy_and_sell_stock.cpp
         ransom_note.cpp
+        valid_palindrome.cpp
         string_replacer.cpp)   # ✅ 删除 mat.cpp
 
 add_library(algo STATIC ${SRC})
