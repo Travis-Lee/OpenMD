@@ -18,6 +18,7 @@ set(SRC reverse_words.cpp
         best_time_to_buy_and_sell_stock.cpp
         ransom_note.cpp
         valid_palindrome.cpp
+        invert_binary_tree.cpp
         string_replacer.cpp)   # ✅ 删除 mat.cpp
 
 add_library(algo STATIC ${SRC})

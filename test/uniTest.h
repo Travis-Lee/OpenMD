@@ -16,6 +16,7 @@
 #include "merge_two_sorted_lists.h"
 #include "best_time_to_buy_and_sell_stock.h"
 #include "valid_palindrome.h"
+#include "invert_binary_tree.h"
 
 int test_queue_with_two_stacks();
 
@@ -54,3 +55,5 @@ int test_merge_two_sorted_lists();
 int test_best_time_to_buy_and_sell_stock();
 
 bool test_valid_palindrome();
+
+int test_invert_binary_tree();

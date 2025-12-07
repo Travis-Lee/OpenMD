@@ -237,6 +237,9 @@ int main(int argc, char* argv[])
     printf("test valid palindrome passed!\n");
     test_valid_palindrome();
 
+    printf("Invert binary tree passed!\n");
+    test_invert_binary_tree();
+    
     return 0;
 }
 

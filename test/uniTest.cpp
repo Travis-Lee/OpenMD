@@ -394,3 +394,51 @@ bool test_valid_palindrome(){
     
     return true;
 }
+
+void printInOrder(TreeNode<int>* root) {
+    if (!root) return;
+    printInOrder(root->left);
+    std::cout << root->val << " ";
+    printInOrder(root->right);  
+}
+
+int test_invert_binary_tree(){
+    // Create the binary tree from the example
+    TreeNode<int>* root = new TreeNode<int>(4);
+    root->left = new TreeNode<int>(2);
+    root->right = new TreeNode<int>(7);
+    root->left->left = new TreeNode<int>(1);
+    root->left->right = new TreeNode<int>(3);
+    root->right->left = new TreeNode<int>(6);
+    root->right->right = new TreeNode<int>(9);
+
+    std::cout << "Original tree (in-order): ";
+    printInOrder(root);
+    std::cout << std::endl;
+
+    InvertBinaryTree<int> invertertree(root);
+
+    //Use recursive method to invert the tree
+    invertertree.invertRecursive();
+    std::cout << "Inverted tree (recursive, in-order): ";
+    printInOrder(invertertree.getRoot());
+    std::cout << std::endl;
+
+    //Use iterative method to invert back the tree
+    invertertree.invertIterative();
+    std::cout << "Inverted back tree (iterative, in-order): ";
+    printInOrder(invertertree.getRoot());
+    std::cout << std::endl;
+
+    // Free memory
+    // (In a real application, you would implement a proper tree destructor)
+    delete root->left->left;
+    delete root->left->right;
+    delete root->right->left;
+    delete root->right->right;
+    delete root->left;
+    delete root->right;
+    delete root;    
+
+    return 0;
+}
